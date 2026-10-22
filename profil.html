@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kreatif - Dicha Maulana</title>
+    <style>
+        /* Gaya Tampilan Umum / Background */
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --accent: #f59e0b;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        /* Container Pembungkus Konten */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border);
+        }
+
+        /* Header & Judul Utama */
+        .header-content {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-top: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        h3 {
+            color: #38bdf8;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
+            margin-top: 35px;
+            font-size: 1.4rem;
+        }
+
+        /* Navigasi / Menu */
+        .navbar {
+            background-color: rgba(30, 41, 59, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 12px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            text-align: center;
+            border: 1px solid var(--border);
+            position: sticky;
+            top: 10px;
+            z-index: 100;
+        }
+
+        .navbar a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .navbar a:hover {
+            background-color: var(--primary);
+            color: white;
+            box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+        }
+
+        /* Gaya Link Umum */
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Tabel Profil & Tabel Umum */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            border: #0f172a 1px solid;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background-color: rgba(37, 99, 235, 0.2);
+            color: #60a5fa;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
+        }
+
+        /* List / Daftar */
+        ul, ol {
+            line-height: 1.8;
+            color: var(--text-muted);
+        }
+
+        strong {
+            color: var(--text-main);
+        }
+
+        /* Kotak Khusus untuk Pandangan Hidup & Cita-cita */
+        .quote-box {
+            background: rgba(15, 23, 42, 0.6);
+            border-left: 4px solid var(--accent);
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 15px 0;
+            font-style: italic;
+            color: #e2e8f0;
+        }
+
+        /* Garis Pembatas */
+        hr {
+            border: none;
+            border-top: 1px dashed var(--border);
+            margin: 30px 0;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header-content">
+        <h2>✨ Portofolio & Profil Pribadi ✨</h2>
+        <p style="color: var(--text-muted);">Selamat datang di website kreatif interaktif saya</p>
+    </div>
+
+    <!-- Menu Navigasi -->
+    <div class="navbar">
+        <a href="#beranda">Beranda</a> | 
+        <a href="#profil">Profil</a> | 
+        <a href="#pendidikan">Pendidikan</a> | 
+        <a href="#jadwal">Jadwal</a> | 
+        <a href="#citacita">Cita-cita</a> | 
+        <a href="#pandangan">Pandangan Hidup</a> | 
+        <a href="#kontak">Kontak</a>
+    </div>
+
+    <!-- BERANDA -->
+    <h3 id="beranda">🚀 Beranda</h3>
+    <p>Halo! Nama saya <strong>Dicha Maulana</strong>, seorang mahasiswa Sistem Informasi di STMIK El Rahma Yogyakarta.</p>
+    <p>Website kreatif satu halaman ini dirancang khusus untuk memenuhi tugas kuliah dengan menampilkan identitas, perjalanan akademik, impian, serta prinsip hidup saya.</p>
+    <a href="#profil">Jelajahi Profil Saya &rarr;</a>
+
+    <hr>
+
+    <!-- PROFIL -->
+    <h3 id="profil">👤 Profil Saya</h3>
+    <table>
+        <tr>
+            <td width="160" align="center" style="border-bottom: none;">
+                <img src="fotogw.jpeg" class="profile-img" alt="Foto Profil Dicha Maulana">
+            </td>
+            <td style="vertical-align: middle; border-bottom: none;">
+                <ul>
+                    <li><strong>Nama Lengkap:</strong> Dicha Maulana</li>
+                    <li><strong>NIM:</strong> 11260627</li>
+                    <li><strong>Program Studi:</strong> Sistem Informasi</li>
+                    <li><strong>Perguruan Tinggi:</strong> STMIK El Rahma</li>
+                    <li><strong>Domisili:</strong> Yogyakarta</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- PENDIDIKAN -->
+    <h3 id="pendidikan">🎓 Riwayat Pendidikan</h3>
+    <ol>
+        <li>SD Negeri 1 Nusa Maju</li>
+        <li>SMP Negeri 1 BMR</li>
+        <li>SMK Negeri 1 Nusa Bakti</li>
+        <li>STMIK El Rahma Yogyakarta (Sistem Informasi)</li>
+    </ol>
+
+    <hr>
+
+    <!-- TABEL TAMBAHAN: JADWAL KULIAH / KEGIATAN -->
+    <h3 id="jadwal">📅 Tabel Jadwal Kegiatan / Kuliah</h3>
+    <p>Berikut adalah gambaran ringkas jadwal aktivitas mingguan saya:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Hari</th>
+                <th>Waktu</th>
+                <th>Kegiatan Utama</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Senin</td>
+                <td>08.00 - 12.00</td>
+                <td>Kuliah Teori Sistem Informasi & Praktikum</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Selasa</td>
+                <td>13.00 - 17.00</td>
+                <td>Mengerjakan Tugas Proyek Web & Coding</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rabu</td>
+                <td>09.00 - 11.00</td>
+                <td>Diskusi Kelompok / Organisasi Kampus</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kamis</td>
+                <td>15.00 - 17.00</td>
+                <td>Olahraga (Badminton)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- CITA-CITA -->
+    <h3 id="citacita">⭐ Cita-Cita & Impian</h3>
+    <p>Dalam bidang karier dan pengembangan diri, saya memiliki beberapa target utama yang ingin diwujudkan:</p>
+    <ul>
+        <li>Menjadi seorang <strong>Software Engineer & Full-Stack Developer</strong> yang profesional.</li>
+        <li>Mendirikan perusahaan rintisan (startup) teknologi sendiri di bidang solusi digital kreatif.</li>
+        <li>Memberikan dampak positif bagi masyarakat luas melalui inovasi teknologi informasi.</li>
+    </ul>
+
+    <hr>
+
+    <!-- PANDANGAN HIDUP -->
+    <h3 id="pandangan">💡 Pandangan Hidup</h3>
+    <div class="quote-box">
+        "Kesuksesan bukanlah hasil instan, melainkan akumulasi dari konsistensi belajar setiap hari, keberanian menghadapi kegagalan, dan kerja keras tanpa henti."
+    </div>
+    <p>Bagi saya, hidup adalah proses berkembang. Setiap tantangan adalah peluang untuk mengupgrade kapasitas diri menjadi versi yang lebih baik dari sebelumnya.</p>
+
+    <hr>
+
+    <!-- KONTAK & SOSIAL MEDIA -->
+    <h3 id="kontak">📱 Kontak & Sosial Media</h3>
+    <p>Mari terhubung dengan saya melalui tautan di bawah ini:</p>
+    <ul>
+        <li>📧 E-mail: <a href="mailto:dichamaulana256@gmail.com">dichamaulana256@gmail.com</a></li>
+        <li>💬 WhatsApp: <a href="https://wa.me/6282271243398" target="_blank">Hubungi via WhatsApp</a></li>
+        <li>🎵 TikTok: <a href="https://www.tiktok.com/@dchmlna?_r=1&_t=ZS-9Ad4Wdt7c5E" target="_blank">@dchmlna</a></li>
+        <li>📸 Instagram: <a href="https://www.instagram.com/dchmlna/" target="_blank">@dchmlna</a></li>
+    </ul>
+
+    <div class="footer">
+        <p>&copy; 2026 Dicha Maulana. Dibuat dengan kreativitas dan semangat tinggi.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
